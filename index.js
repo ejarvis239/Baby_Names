@@ -196,10 +196,6 @@ const babyNameArrayBoy = [
 "Tony",
 ]
 
-//every time the button gets pressed a randm whole number needs to be generated.
-//the number will be used for the array index number
-//choose array and send it to html
-
 function newBoyName() {
 const randomNumber = Math.floor(Math.random()* (babyNameArrayBoy.length));
 document.getElementById('nameDisplayBoy').innerHTML = babyNameArrayBoy[randomNumber];
